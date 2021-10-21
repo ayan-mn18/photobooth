@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    
+}
+
+.header img{
+    width: 10rem;
+}
+
+.header_text{
+    color: black;
+    font-size: 2rem;
+    font-weight: 800;
+}

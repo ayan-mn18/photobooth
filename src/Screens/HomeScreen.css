@@ -1,0 +1,84 @@
+/* HomeScreen Styling */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    
+  }
+  
+  .header img{
+    width: 10rem;
+  }
+  
+  .header_text{
+    color: black;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  
+  .home_title{
+  text-align: right;
+  }
+  
+  .scan_title{
+    text-align: center !important;
+  }
+  
+  img{
+    max-width: 100%;
+  }
+  
+  #home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    justify-content: space-between;
+  }
+  
+  .home_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Call to Action Styles */
+  
+  .cta_home a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-inline: auto;
+    color: white;
+    background-color: #1073C0;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    font-family: Poppins;
+    position: relative;
+  }
+  
+  .cta_home span.cta_home-arrow{
+    position: absolute;
+    right: 0;
+    padding-right: 1rem;
+  }
+  
+  /* Footer Styles */
+  
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+    font-family: Poppins;
+    font-size: 80%;
+  }
+  
+  @media(max-height: 700px){
+    .header img{
+        width: 5rem;
+    }
+  }

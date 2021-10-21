@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import React,{ useState } from 'react'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import Header from './Components/Header/Header'
+import HomeScreen from './Screens/HomeScreen'
 import './App.css';
+import PhotoScreen from './Screens/PhotoScreen';
+import ShareScreen from './Screens/ShareScreen';
+import VideoComponent from './Components/VideoComponent';
 
-function App() {
+const App = () => {
+
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+        <Route path='/home' component={HomeScreen} />
+        <Route path='/ps' component={PhotoScreen} />
+        <Route path='/share' component={ShareScreen} />
+        <Route path='/video' component={VideoComponent} />
+    </Router>
+  )
 }
 
-export default App;
+export default App

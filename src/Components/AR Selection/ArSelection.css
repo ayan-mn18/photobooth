@@ -1,0 +1,70 @@
+.header{
+    position: relative;
+}
+
+.back_btn{
+    position: absolute;
+    max-width: 2.5rem;
+    left: 0;
+    margin-left: 2rem;
+}
+
+.upload_image{
+    position: relative;
+}
+
+.camera_icon{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1rem;
+}
+
+.camera_icon img{
+    max-width: 2.5rem;
+}
+
+.assets_section{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    margin-right: 0;
+}
+
+.assets_section h5{
+    font-family: Poppins;
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 0.75rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    
+}
+
+.assets_scroll{
+    display: flex;
+    overflow-x: scroll;
+}
+
+.assets_scroll img{
+    max-width: 3rem;
+    /* height: 2rem; */
+    width: 3rem;
+    padding: 0.5rem 0.5rem;
+    border: 2px solid white;
+    border-radius: 100%;
+    margin-right: 1rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 10000;
+}
+
+.assets_scroll img:hover{
+    background-color: rgba(124, 124, 124, 0.3);
+}
+.assets img{
+    max-width: 3rem;
+    height: 2rem !important;
+    width: 3rem;
+    padding: 1rem 0.5rem;
+
+}
